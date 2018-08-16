@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.arthas</groupId>
+    <artifactId>moremodule</artifactId>
+    <version>1</version>
+    <modules>
+        <module>library</module>
+        <module>demo</module>
+    </modules>
+    <!--在springboot中如何创建含有多个module的工程，栗子中含有两个 module，一个作为libarary. 工程，另外一个是主工程，调用libary .其中libary jar有一个服务，main工程调用这个服务。-->
+    <!--packaging标签为pom 属性。-->
+    <packaging>pom</packaging>
+    <name>springboot-multi-module</name>
+    <description>Demo project for Spring Boot</description>
+
+
+</project>
